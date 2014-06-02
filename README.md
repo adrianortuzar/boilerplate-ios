@@ -7,3 +7,5 @@ Boilerplate for ios apps that contains:
 - Single View application project.
 - BDD for unit testing https://github.com/kiwi-bdd/Kiwi
 - Cocoa pods for dependencies projects.
+- DDLog https://github.com/CocoaLumberjack/CocoaLumberjack
+- AFNetworking https://github.com/AFNetworking/AFNetworking
