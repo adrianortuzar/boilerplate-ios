@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		5387F21AA2D240B79078B3B9 /* libPods-boilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFC66BCB5B54D2DBE1EC453 /* libPods-boilerplateTests.a */; };
 		D525BDE21945E947001FDFA4 /* SampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D525BDE11945E947001FDFA4 /* SampleSpec.m */; };
+		D525BDEA1945FC22001FDFA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D525BDE61945FC22001FDFA4 /* AppDelegate.m */; };
+		D525BDEB1945FC22001FDFA4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D525BDE91945FC22001FDFA4 /* MainViewController.m */; };
+		D525BDEE1945FC74001FDFA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D525BDED1945FC74001FDFA4 /* Images.xcassets */; };
+		D525BE1A1945FFC9001FDFA4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D525BE161945FFC9001FDFA4 /* Main_iPad.storyboard */; };
+		D525BE1B1945FFC9001FDFA4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D525BE181945FFC9001FDFA4 /* Main_iPhone.storyboard */; };
+		D525BE2D19460162001FDFA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D525BE2B19460162001FDFA4 /* InfoPlist.strings */; };
+		D525BE2F194601A7001FDFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D525BE2E194601A7001FDFA4 /* main.m */; };
 		D5C03E26193CAC53000B0A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E25193CAC53000B0A1A /* Foundation.framework */; };
 		D5C03E28193CAC53000B0A1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E27193CAC53000B0A1A /* CoreGraphics.framework */; };
 		D5C03E2A193CAC53000B0A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E29193CAC53000B0A1A /* UIKit.framework */; };
-		D5C03E30193CAC53000B0A1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5C03E2E193CAC53000B0A1A /* InfoPlist.strings */; };
-		D5C03E32193CAC53000B0A1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C03E31193CAC53000B0A1A /* main.m */; };
-		D5C03E36193CAC53000B0A1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C03E35193CAC53000B0A1A /* AppDelegate.m */; };
-		D5C03E39193CAC53000B0A1A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C03E37193CAC53000B0A1A /* Main_iPhone.storyboard */; };
-		D5C03E3C193CAC53000B0A1A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C03E3A193CAC53000B0A1A /* Main_iPad.storyboard */; };
-		D5C03E3F193CAC53000B0A1A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C03E3E193CAC53000B0A1A /* MainViewController.m */; };
-		D5C03E41193CAC53000B0A1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C03E40193CAC53000B0A1A /* Images.xcassets */; };
 		D5C03E48193CAC53000B0A1A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E47193CAC53000B0A1A /* XCTest.framework */; };
 		D5C03E49193CAC53000B0A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E25193CAC53000B0A1A /* Foundation.framework */; };
 		D5C03E4A193CAC53000B0A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E29193CAC53000B0A1A /* UIKit.framework */; };
@@ -41,21 +41,21 @@
 		2FFC66BCB5B54D2DBE1EC453 /* libPods-boilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0C8A8C543E407A8E491D83 /* Pods-boilerplate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.xcconfig"; path = "Pods/Pods-boilerplate.xcconfig"; sourceTree = "<group>"; };
 		D525BDE11945E947001FDFA4 /* SampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSpec.m; sourceTree = "<group>"; };
+		D525BDE51945FC22001FDFA4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D525BDE61945FC22001FDFA4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D525BDE81945FC22001FDFA4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D525BDE91945FC22001FDFA4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D525BDED1945FC74001FDFA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D525BE171945FFC9001FDFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D525BE191945FFC9001FDFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D525BE2C19460162001FDFA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Supporting Files/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D525BE2E194601A7001FDFA4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		D5C03E22193CAC53000B0A1A /* boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C03E25193CAC53000B0A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5C03E27193CAC53000B0A1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D5C03E29193CAC53000B0A1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5C03E2D193CAC53000B0A1A /* boilerplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boilerplate-Info.plist"; sourceTree = "<group>"; };
-		D5C03E2F193CAC53000B0A1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D5C03E31193CAC53000B0A1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5C03E33193CAC53000B0A1A /* boilerplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "boilerplate-Prefix.pch"; sourceTree = "<group>"; };
-		D5C03E34193CAC53000B0A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D5C03E35193CAC53000B0A1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5C03E38193CAC53000B0A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		D5C03E3B193CAC53000B0A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D5C03E3D193CAC53000B0A1A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		D5C03E3E193CAC53000B0A1A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		D5C03E40193CAC53000B0A1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D5C03E46193CAC53000B0A1A /* boilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C03E47193CAC53000B0A1A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D5C03E4F193CAC53000B0A1A /* boilerplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "boilerplateTests-Info.plist"; sourceTree = "<group>"; };
@@ -89,6 +89,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D525BDE31945FC22001FDFA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D525BDE41945FC22001FDFA4 /* AppDelegate */,
+				D525BDE71945FC22001FDFA4 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D525BDE41945FC22001FDFA4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D525BDE51945FC22001FDFA4 /* AppDelegate.h */,
+				D525BDE61945FC22001FDFA4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D525BDE71945FC22001FDFA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D525BDE81945FC22001FDFA4 /* MainViewController.h */,
+				D525BDE91945FC22001FDFA4 /* MainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D525BDEC1945FC74001FDFA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D525BE161945FFC9001FDFA4 /* Main_iPad.storyboard */,
+				D525BE181945FFC9001FDFA4 /* Main_iPhone.storyboard */,
+				D525BDED1945FC74001FDFA4 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D5C03E19193CAC53000B0A1A = {
 			isa = PBXGroup;
 			children = (
@@ -126,13 +163,8 @@
 		D5C03E2B193CAC53000B0A1A /* boilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				D5C03E34193CAC53000B0A1A /* AppDelegate.h */,
-				D5C03E35193CAC53000B0A1A /* AppDelegate.m */,
-				D5C03E37193CAC53000B0A1A /* Main_iPhone.storyboard */,
-				D5C03E3A193CAC53000B0A1A /* Main_iPad.storyboard */,
-				D5C03E3D193CAC53000B0A1A /* MainViewController.h */,
-				D5C03E3E193CAC53000B0A1A /* MainViewController.m */,
-				D5C03E40193CAC53000B0A1A /* Images.xcassets */,
+				D525BDEC1945FC74001FDFA4 /* Resources */,
+				D525BDE31945FC22001FDFA4 /* Classes */,
 				D5C03E2C193CAC53000B0A1A /* Supporting Files */,
 			);
 			path = boilerplate;
@@ -141,9 +173,9 @@
 		D5C03E2C193CAC53000B0A1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D525BE2E194601A7001FDFA4 /* main.m */,
+				D525BE2B19460162001FDFA4 /* InfoPlist.strings */,
 				D5C03E2D193CAC53000B0A1A /* boilerplate-Info.plist */,
-				D5C03E2E193CAC53000B0A1A /* InfoPlist.strings */,
-				D5C03E31193CAC53000B0A1A /* main.m */,
 				D5C03E33193CAC53000B0A1A /* boilerplate-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -248,10 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C03E3C193CAC53000B0A1A /* Main_iPad.storyboard in Resources */,
-				D5C03E41193CAC53000B0A1A /* Images.xcassets in Resources */,
-				D5C03E39193CAC53000B0A1A /* Main_iPhone.storyboard in Resources */,
-				D5C03E30193CAC53000B0A1A /* InfoPlist.strings in Resources */,
+				D525BE1B1945FFC9001FDFA4 /* Main_iPhone.storyboard in Resources */,
+				D525BE2D19460162001FDFA4 /* InfoPlist.strings in Resources */,
+				D525BE1A1945FFC9001FDFA4 /* Main_iPad.storyboard in Resources */,
+				D525BDEE1945FC74001FDFA4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,9 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C03E36193CAC53000B0A1A /* AppDelegate.m in Sources */,
-				D5C03E32193CAC53000B0A1A /* main.m in Sources */,
-				D5C03E3F193CAC53000B0A1A /* MainViewController.m in Sources */,
+				D525BDEA1945FC22001FDFA4 /* AppDelegate.m in Sources */,
+				D525BE2F194601A7001FDFA4 /* main.m in Sources */,
+				D525BDEB1945FC22001FDFA4 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,28 +390,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D5C03E2E193CAC53000B0A1A /* InfoPlist.strings */ = {
+		D525BE161945FFC9001FDFA4 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5C03E2F193CAC53000B0A1A /* en */,
+				D525BE171945FFC9001FDFA4 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		D5C03E37193CAC53000B0A1A /* Main_iPhone.storyboard */ = {
+		D525BE181945FFC9001FDFA4 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5C03E38193CAC53000B0A1A /* Base */,
+				D525BE191945FFC9001FDFA4 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		D5C03E3A193CAC53000B0A1A /* Main_iPad.storyboard */ = {
+		D525BE2B19460162001FDFA4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5C03E3B193CAC53000B0A1A /* Base */,
+				D525BE2C19460162001FDFA4 /* en */,
 			);
-			name = Main_iPad.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		D5C03E50193CAC53000B0A1A /* InfoPlist.strings */ = {
