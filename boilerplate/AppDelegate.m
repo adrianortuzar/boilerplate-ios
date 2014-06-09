@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 ch.epfl. All rights reserved.
 //
 
-#import "loopAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation loopAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

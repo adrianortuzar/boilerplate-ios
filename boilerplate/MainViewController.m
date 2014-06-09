@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 ch.epfl. All rights reserved.
 //
 
-#import "loopViewController.h"
+#import "MainViewController.h"
 
-@interface loopViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation loopViewController
+@implementation MainViewController
 
 - (void)viewDidLoad
 {

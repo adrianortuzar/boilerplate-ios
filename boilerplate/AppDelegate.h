@@ -1,5 +1,5 @@
 //
-//  loopViewController.h
+//  loopAppDelegate.h
 //  boilerplate
 //
 //  Created by Adrian Ortuzar on 6/2/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface loopViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
