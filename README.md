@@ -4,12 +4,13 @@ IOS Boilerplate
 Boilerplate for IOS universal apps that contains:
 
 - Workspace that contain a target project (boilerplate) and Pods project.
-- Single View application.
+- Single View application template.
 - Folder structure following http://akosma.com/2009/07/28/code-organization-in-xcode-projects/
+- gitignore base in https://gist.github.com/mmorey/6931793
 - Cocoa pods for dependencies projects that include:
   - BRCocoaLumberjack https://github.com/CocoaLumberjack/CocoaLumberjack
   - AFNetworking https://github.com/AFNetworking/AFNetworking
-  - BDD for and  unit testing https://github.com/kiwi-bdd/Kiwi
+  - BDD for unit testing https://github.com/kiwi-bdd/Kiwi
   - Unit Test Target Configuration following kiwi documentation https://github.com/kiwi-bdd/Kiwi/wiki/Getting-Started-with-Kiwi-2.0
 
 ### Installation:
