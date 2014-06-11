@@ -16,6 +16,7 @@
 		D525BE1B1945FFC9001FDFA4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D525BE181945FFC9001FDFA4 /* Main_iPhone.storyboard */; };
 		D525BE2D19460162001FDFA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D525BE2B19460162001FDFA4 /* InfoPlist.strings */; };
 		D525BE2F194601A7001FDFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D525BE2E194601A7001FDFA4 /* main.m */; };
+		D525BE341947D31D001FDFA4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D525BE321947D31D001FDFA4 /* DataModel.xcdatamodeld */; };
 		D5C03E26193CAC53000B0A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E25193CAC53000B0A1A /* Foundation.framework */; };
 		D5C03E28193CAC53000B0A1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E27193CAC53000B0A1A /* CoreGraphics.framework */; };
 		D5C03E2A193CAC53000B0A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C03E29193CAC53000B0A1A /* UIKit.framework */; };
@@ -50,6 +51,7 @@
 		D525BE191945FFC9001FDFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D525BE2C19460162001FDFA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Supporting Files/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D525BE2E194601A7001FDFA4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		D525BE331947D31D001FDFA4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		D5C03E22193CAC53000B0A1A /* boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C03E25193CAC53000B0A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D5C03E27193CAC53000B0A1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +128,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		D525BE311947D2DB001FDFA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D525BE321947D31D001FDFA4 /* DataModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D5C03E19193CAC53000B0A1A = {
 			isa = PBXGroup;
 			children = (
@@ -163,8 +173,9 @@
 		D5C03E2B193CAC53000B0A1A /* boilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				D525BDEC1945FC74001FDFA4 /* Resources */,
 				D525BDE31945FC22001FDFA4 /* Classes */,
+				D525BE311947D2DB001FDFA4 /* Models */,
+				D525BDEC1945FC74001FDFA4 /* Resources */,
 				D5C03E2C193CAC53000B0A1A /* Supporting Files */,
 			);
 			path = boilerplate;
@@ -366,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D525BDEA1945FC22001FDFA4 /* AppDelegate.m in Sources */,
+				D525BE341947D31D001FDFA4 /* DataModel.xcdatamodeld in Sources */,
 				D525BE2F194601A7001FDFA4 /* main.m in Sources */,
 				D525BDEB1945FC22001FDFA4 /* MainViewController.m in Sources */,
 			);
@@ -608,6 +620,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D525BE321947D31D001FDFA4 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D525BE331947D31D001FDFA4 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = D525BE331947D31D001FDFA4 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = Models/DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D5C03E1A193CAC53000B0A1A /* Project object */;
 }
