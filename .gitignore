@@ -118,12 +118,8 @@ xcuserdata
 # and should therefore not be checked into the VCS.
  
 *.xccheckout
- 
-####
-# UNKNOWN: recommended by others, but I can't discover what these files are
-#
-# ...none. Everything is now explained.:
 
+####
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -131,4 +127,9 @@ xcuserdata
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control?
 #
 Pods/
+
+####
+# UNKNOWN: recommended by others, but I can't discover what these files are
+#
+# ...none. Everything is now explained.:
 
