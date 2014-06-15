@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>DD20D309-7CDE-48EC-83EB-A7128A70FFFF</string>
+	<string>C513BA09-86F0-4698-8226-8254390427CF</string>
 	<key>IDESourceControlProjectName</key>
 	<string>boilerplate</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D4BF2BFA-2C7A-450F-A41E-FD7E3F1336B6</key>
-		<string>https://github.com/adrianortuzar/boilerplate_ios</string>
+		<key>CF475E76-8F83-47D6-8E11-0C3A67F509C9</key>
+		<string>https://github.com/adrianortuzar/boilerplate-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>boilerplate.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D4BF2BFA-2C7A-450F-A41E-FD7E3F1336B6</key>
+		<key>CF475E76-8F83-47D6-8E11-0C3A67F509C9</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/adrianortuzar/boilerplate_ios</string>
+	<string>https://github.com/adrianortuzar/boilerplate-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D4BF2BFA-2C7A-450F-A41E-FD7E3F1336B6</string>
+	<string>CF475E76-8F83-47D6-8E11-0C3A67F509C9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D4BF2BFA-2C7A-450F-A41E-FD7E3F1336B6</string>
+			<string>CF475E76-8F83-47D6-8E11-0C3A67F509C9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>boilerplate_ios</string>
+			<string>boilerplate-ios</string>
 		</dict>
 	</array>
 </dict>
