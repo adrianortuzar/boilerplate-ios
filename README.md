@@ -8,7 +8,7 @@ Boilerplate for IOS universal apps that contains:
 - **Core Data Model Editor** http://goo.gl/fLGlE8
 - **Folder structure** following http://akosma.com/2009/07/28/code-organization-in-xcode-projects/
 - **Gitignore** base in https://gist.github.com/mmorey/6931793
-- **CocoaPods** for dependencies projects that include:
+- **Podfile** with some libraries that I recommend:
   - **ObjectiveRecord**: to managing Core Data objects https://github.com/supermarin/ObjectiveRecord 
   - **BRCocoaLumberjack**: logging framework https://github.com/CocoaLumberjack/CocoaLumberjack
   - **AFNetworking**: networking library https://github.com/AFNetworking/AFNetworking
@@ -25,7 +25,7 @@ Boilerplate for IOS universal apps that contains:
 
 *You can run the project without install cocoapods.*
 
-*Before installing CocoaPods I recommend you to check all the libraries and framework in the *Podfile*. Remove the pods that you do not think you are going to use in your project.*
+*Before installing CocoaPods I recommend you to check all the libraries and framework in the Podfile. Remove the pods that you do not think you are going to use.*
 
     $ cd boilerplate_ios
     $ pod install
