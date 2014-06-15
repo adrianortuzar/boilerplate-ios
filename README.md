@@ -5,6 +5,7 @@ Boilerplate for IOS universal apps that contains:
 
 - Workspace that contain a target project (boilerplate) and Pods project.
 - Single View application template.
+- Core Data Model Editor http://goo.gl/fLGlE8
 - Folder structure following http://akosma.com/2009/07/28/code-organization-in-xcode-projects/
 - gitignore base in https://gist.github.com/mmorey/6931793
 - Cocoa pods for dependencies projects that include:
