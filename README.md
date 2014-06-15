@@ -17,11 +17,19 @@ Boilerplate for IOS universal apps that contains:
 
 ### Installation:
 
-Clone the repository:
+**Clone the repository**:
 
     $ git clone https://github.com/adrianortuzar/boilerplate_ios.git
 
-Install cocoapods http://cocoapods.org/
+**Install cocoapods**: http://cocoapods.org/
+
+*You can run the project without install cocoapods.*
+
+*Before installing CocoaPods I recommend you to check all the libraries and framework in the *Podfile*. Remove the pods that you do not think you are going to use in your project.*
 
     $ cd boilerplate_ios
     $ pod install
+
+### Licence
+
+**Copy Paste Licence**. Fell free, enjoy this project, and if you have time improve it.
