@@ -23,10 +23,9 @@ Boilerplate for IOS universal apps that contains:
   
 **Rename the project**
 
-Start your new project with the correct name.
-
-Follow the instruction in the wiki.
-https://github.com/adrianortuzar/boilerplate-ios/wiki/How-to-change-the-project-name
+Start your new project before coding with the correct name.
+Follow this instructions:
+https://github.com/adrianortuzar/boilerplate-ios/wiki/How-to-change-the-IOS-Bolilerplate-project-name
 
 **Install cocoapods**: http://cocoapods.org/
 
