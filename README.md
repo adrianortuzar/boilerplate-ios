@@ -17,16 +17,16 @@ Boilerplate for IOS universal apps that contains:
 
 ### Installation:
 
+**Clone the repository**:
+
+    $ git clone https://github.com/adrianortuzar/boilerplate_ios.git
+  
 **Rename the project**
 
 Start your new project with the correct name.
 
 Follow the instruction in the wiki.
 https://github.com/adrianortuzar/boilerplate-ios/wiki/How-to-change-the-project-name
-
-**Clone the repository**:
-
-    $ git clone https://github.com/adrianortuzar/boilerplate_ios.git
 
 **Install cocoapods**: http://cocoapods.org/
 
